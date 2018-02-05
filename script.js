@@ -16,5 +16,16 @@ $(document).ready(function() {
     });
   });
 
+  SC.stream('/tracks/155366202', function(sound) {
+    $('#start1').click(function(e) {
+      e.preventDefault();
+      sound.start();
+    });
+    $('#stop1').click(function(e) {
+      e.preventDefault();
+      sound.stop();
+    });
+  });
+
 
   });
