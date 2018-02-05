@@ -1,0 +1,183 @@
+   <!DOCTYPE html>
+   <html lang = "en">
+
+      <head>
+         <meta charset = "utf-8">
+         <meta http-equiv = "X-UA-Compatible" content = "IE = edge">
+         <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+
+         <title>POPCORN | HOME | Signup</title>
+
+         <!-- Bootstrap -->
+         <link href = "../css/bootstrap.css" rel = "stylesheet">
+         <link href = "../css/bootstrap-grid.css" rel = "stylesheet">
+         <link href = "../css/bootstrap-theme.css" rel = "stylesheet">
+
+      <style>
+        footer {
+        background-color: #eee;
+        color: black;
+        padding: 15px;
+        }
+        .footer-heading {
+          font-weight: 500;
+          font-size: 18px;
+          color: red;
+        }
+        address {
+          font-size: 16px;
+          color: #000;
+        }
+        .title-prop {
+          font-size: 24px;
+          font-weight: bold;
+          padding-bottom: 10px;
+        }
+
+        .box-prop {
+          height: 60px;
+        }
+        .panel-box{
+          margin-top: 20px;
+          margin-bottom: 20px;
+        }
+
+      </style>
+
+
+         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+
+         <!--[if lt IE 9]>
+         <script src = "https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+         <script src = "https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+         <![endif]-->
+
+</head>
+
+<body style="background:url(../images/login-bg.jpg);">
+
+  <!-- Start Header brand -->
+  <div class=" jumbotron">
+    <div class="col-sm-4"></div>
+    <div class="container text-center">
+      <span class="col-sm-4"><img width="100%" src="../images/brand.png" alt="Image">
+
+       <p>Watch movies & Spend your free time...</p>
+      </span>
+   </div>
+   <div class="col-sm-4"></div>
+  </div> <!-- End Header brand -->
+
+<!-- Start Navigation bar -->
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">POPCORN</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="../index.html">HOME</a></li>
+        <li><a href="add.html">ADD MOVIE</a></li>
+        <li><a href="#">LATEST</a></li>
+        <li><a href="#">OTHER LANGUAGES</a></li>
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="signin.html"><span class="glyphicon glyphicon-hand-right"></span> Sign in</a></li>
+        <li class="active"><a href="#"><span class="glyphicon glyphicon-hand-up"></span> Sign up</a></li>
+
+      </ul>
+    </div>
+  </div>
+</nav>  <!-- End Navigation bar-->
+
+<!--Start Sign Up-->
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-4 col-sm-offset-4 panel-box">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h2 class="text-center">Create An Account </h2>
+        </div>
+        <div class="panel-body">
+          <form>
+            <div class="form-group">
+              <label for="pwd">First Name: </label>
+              <input type="text" class="form-control box-prop">
+            </div>
+
+            <div class="form-group">
+              <label for="pwd">Last Name: </label>
+              <input type="text" class="form-control box-prop">
+            </div>
+
+            <div class="form-group">
+              <label for="pwd">Email Id: </label>
+              <input type="email" class="form-control box-prop" id="email">
+            </div>
+
+            <div class="form-group">
+              <label for="pwd">Password: </label>
+              <input type="password" class="form-control box-prop" id="pwd">
+            </div>
+
+            <div class="form-group">
+              <label for="pwd">Confirm Password: </label>
+              <input type="password" class="form-control box-prop" id="pwd">
+            </div>
+
+          </form>
+        </div> <!--Panel body-->
+        <div class="panel-footer">
+          <div class="row">
+            <div class="col-sm-6">
+              <input type="submit" class="btn btn-info btn-lg" Value="Sign Up">
+              <a href="../index.html"><input type="submit" class="btn btn-danger btn-lg" Value="Cancel"></a>
+            </div>
+            <div class="col-sm-6 text-right" style="font-size:18px; padding:12px;" >
+              Already have an Accound <a href="signin.html">Signin</a><br>
+            </div>
+          </div>
+        </div>  <!--End Palen footer-->
+      </div> <!--Panel panel default-->
+    </div> <!--col-sm-4-->
+  </div>  <!--row-->
+</div> <!--End Sign Up-->
+
+
+<!-- Start Footer -->
+<footer class="container-fluid">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-3 text-left">
+            <img src="../images/brand.png" width="300px">
+      </div>
+      <div class="col-sm-9 text-right">
+        <h5 class="footer-heading">POPCORN MOVIE CASTING</h5>
+        <address>
+          Gimpledon Mavata,<br>
+          Qubacke Orio,
+          United Kingdom.<br>
+          Contact: 077 123 4567
+        </address>
+      </div>
+    </div>
+  </div>
+</footer> <!-- End Footer-->
+
+
+         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+         <script src = "https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+         <!-- Include all compiled plugins (below), or include individual files as needed -->
+         <script src = "//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+      </body>
+   </html>
